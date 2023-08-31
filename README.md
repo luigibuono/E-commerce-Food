@@ -69,7 +69,12 @@
 
 <h3>DAL BACKEND ATTIVARE SERVER CON npm start</h3><br>
 
-<h3>DAL FRONTEND ATTIVARE APPLICAZIONE SUL BROWSER CON ng serve</h3>
+<h3>DAL FRONTEND ATTIVARE APPLICAZIONE SUL BROWSER CON ng serve</h3> <br>
+
+
+# PLUS
+<p>Da lcoale è possibile contattarmi attraverso il footer di pagina, dove è presente il mio profilo social sulle principali piattaforme </p>
+
 
 
 
