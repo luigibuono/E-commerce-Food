@@ -1,5 +1,5 @@
 {
-    "name": "foodmine-course",
+    "name": "foodmine-application",
     "version": "1.0.0",
     "engines": {
         "node": ">=18 <19"
