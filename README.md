@@ -73,7 +73,7 @@
 
 
 # PLUS
-<p>Da lcoale è possibile contattarmi attraverso il footer di pagina, dove è presente il mio profilo social sulle principali piattaforme </p>
+<p>Da locale è possibile contattarmi attraverso il footer di pagina, dove è presente il mio profilo social sulle principali piattaforme </p>
 
 
 
