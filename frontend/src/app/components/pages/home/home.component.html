@@ -1,0 +1,67 @@
+<app-search></app-search>
+<app-tags></app-tags>
+<app-not-found
+[visible]="!foods || !foods.length"
+resetLinkText="Reset Search">
+</app-not-found>
+<ul>
+  <li *ngFor="let food of foods">
+    <a routerLink="/food/{{food.id}}">
+      <img [src]="food.imageUrl" [alt]="food.name" />
+      <div class="content">
+        <div class="name">
+          {{food.name}}
+        </div>
+        <span class="favorite {{food.favorite?'':'not'}}">
+          ❤
+        </span>
+        <div class="stars">
+          <star-rating [stars]="food.stars" />
+        </div>
+        <div class="product-item-footer">
+          <div class="origins">
+            <span *ngFor="let origin of food.origins">
+              {{origin}}
+            </span>
+          </div>
+
+          <div class="cook-time">
+            <span>🕒</span>
+            {{food.cookTime}}
+          </div>
+        </div>
+
+        <div class="price">
+          <span>
+            {{food.price | currency}}
+          </span>
+        </div>
+      </div>
+    </a>
+  </li>
+</ul>
+<hr>
+<div class="row mt-4  mb-4 text-center">
+  <div class="card" style="width: 25rem;">
+    <img class="card-img-top" src="../../../assets/7.png" alt="Card image cap">
+    <div class="card-body">
+      <h1 class="card-title mb-5">24/7 Customer Service.</h1>
+      <p class="card-text mt-5"></p>
+    </div>Use the contacts for any information or for assistance on an order placed
+  </div>
+  <div class="card" style="width: 25rem;">
+    <img class="card-img-top" src="../../../assets/6.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h1 class="card-title">Low Cost</h1>
+      <p class="card-text">Buy what you want at unbeatable prices.</p>
+    </div>
+  </div>
+  <div class="card" style="width: 25rem;">
+    <img class="card-img-top" src="../../../assets/5.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h1 class="card-title">Security Mechanisms</h1>
+      <p class="card-text">Maximum security systems during the manipulation of important data during payments.</p>
+    </div>
+  </div>
+  </div>
+<app-footer></app-footer>
