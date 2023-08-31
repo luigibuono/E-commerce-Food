@@ -57,7 +57,18 @@
 2: connetti il repository git a render <br>
 3: dai un nome al progetto,scegli il ramo(main/master) aggiungi i comandi di build e start
 
-# TESTING
+# TESTING   <br>
+Scopri quanto codice stai testando: ng test --no-watch --code-coverage <br>
+Istalla i pacchetti necessari:<br
+"karma": "^6.4.2",
+    "karma-chrome-launcher": "^3.2.0",
+    "karma-coverage": "^2.2.1",
+    "karma-jasmine": "^5.1.0",
+    "karma-jasmine-html-reporter": "^2.1.0"
+    "@types/jasmine": "^4.3.5",
+     "jasmine-core": "^5.1.1",<br>
+
+
 
 
 <h1>USO IN LOCAL:</h1>
