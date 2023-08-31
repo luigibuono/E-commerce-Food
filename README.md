@@ -6,7 +6,7 @@
 <hr>
 # STRUTTURA
 <br>
-# FRONTEND
+# FRONTEND<br>
 1: ng new frontend(crea Angular App)<br>
 2:Crea L'header component <br>
 3:Crea HomeComponent con food model,data.ts,Add image to assets,food service.<br>
@@ -15,7 +15,14 @@
 6:Crea il Food-page Component <br>
 7:crea il cart-component con cart Model,cartItem Model,cart service <br>
 8:Genera il not found component e aggiungilo a Home,Food,Cart<br>
-#BACKEND
+9:Login-Page component <br>
+10:register Component <br>
+11: Loading Component <br> 
+12: Checkout Page <br>
+13: Payment Page <br>
+14: Adding PayPal <br>
+15:Order Track Page <bR>
+#BACKEND<br>
 1:nuovo terminale, npm init -y e aggiungi dependencies: <br>
 "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -34,6 +41,14 @@
     "@types/jsonwebtoken": "^9.0.2",
     "nodemon": "^3.0.1",
     "ts-node": "^10.9.1"
-  }
+  } <br>
+  2:copia data.ts dal front, crea ts.config,crea server.ts,copia urs.ts <br>
+  3:componi la struttura back end con middlewares,routes,models : crea i metodi post,get per per la creazione di nuovi utenti,visualizzazione,ordini,prodotti. <br>
+# DEPLOY <br>
+1:Ho utilizzato render.com , Vai su New e aggiungi web Service <br>
+2: connetti il repository git a render <br>
+3: dai un nome al progetto,scegli il ramo(main/master) aggiungi i comandi di build e start
+
+# TESTING
 
 
