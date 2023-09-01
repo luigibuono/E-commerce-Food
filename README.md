@@ -59,7 +59,7 @@
 
 # TESTING   <br>
 Scopri quanto codice stai testando: ng test --no-watch --code-coverage <br>
-Istalla i pacchetti necessari:<br
+Installa i pacchetti necessari:<br
 "karma": "^6.4.2",
     "karma-chrome-launcher": "^3.2.0",
     "karma-coverage": "^2.2.1",
