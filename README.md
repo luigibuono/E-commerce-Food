@@ -1,4 +1,4 @@
-<h1><strong>#8 S2I</strong></h1>
+E-commerce tutorial angular
 
 # ProgettoMEAN
 
